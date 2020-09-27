@@ -57,6 +57,9 @@ header .navbar{
 header a{
     color: white;
 }
+#logo {
+    border-radius: 50%;
+}
 
 /*-- header part mainManu --*/
 #mainManu .active{
