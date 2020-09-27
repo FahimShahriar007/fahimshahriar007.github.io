@@ -1,0 +1,145 @@
+/* === Global CSS === */
+
+body  {
+	background-image: url("../img/bodybg.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.bg-transparent-black{
+    background-color: #0e0e0e6e !important;
+}
+
+/*-- home section --*/
+#home {
+    background-image: url('../img/bgimg.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+}
+#home p{
+    text-align: left;
+    font-size: 1.2rem; 
+}
+#home h6{
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+}
+#home h2{
+    font-size: 1.9rem; 
+    margin-bottom: 20px;
+}
+#home .btn{
+    border-radius: 25px;
+}
+#home .author_text{
+    text-align: left; 
+    margin-top: 200px;
+}
+
+/* Style buttons */
+#download {
+	background-color:#4c494999;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  #download:hover {
+    background-color: RoyalBlue;
+  }
+
+/*--header part--*/
+header .navbar{
+    background-color: #000000b0;
+}
+header a{
+    color: white;
+}
+
+#logo {
+	border-radius: 50%;
+}
+
+/*-- header part mainManu --*/
+#mainManu .active{
+    background-color: black;
+}
+
+/*-- summary section --*/
+
+/*-- Education part --*/
+#education{
+    background-image: url(../img/education.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#education .card{
+    background-color: #8080806e;
+    color: white;
+}
+#education .card:hover{
+    background-color: #000203c0;
+}
+#education .card-img-overlay {
+    top: auto;
+    display: none;
+}
+#education .card:hover .card-img-overlay {
+    display: block;
+}
+
+/*-- experience Part--*/
+#experience{
+    background-image: url('../img/p1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*-- Projects part --*/
+
+/*-- certification Part--*/
+#certification{
+    background-image: url('../img/p2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#certification .card{
+    background-color: #8080806e;
+    color: white;
+}
+#certification .card:hover{
+    background-color: #000203c0;
+}
+
+/*-- interests Part--*/
+#interests{
+    background-image: url('../img/p3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*-- footer part --*/
+#social a{
+    width: 40px;
+    height: 40px;
+}
+#upper{
+    width: 40px;
+    height: 35px;
+    left: auto;
+    bottom: 3px;
+    right: 10px;
+}
